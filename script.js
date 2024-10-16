@@ -2,11 +2,11 @@
 function cargarArchivosPreguntas() {
     const selector = document.getElementById('selectorPreguntas');
 
-    // Rutas absolutas para GitHub Pages
+    // Aquí debes tener una lista de archivos que podrías haber generado desde el backend o de alguna forma.
     const archivos = [
-        '/Test/preguntas/preguntas1.js',
-        '/Test/preguntas/preguntas2.js',
-        '/Test/preguntas/preguntas3.js' // Agrega más archivos según los que tengas
+        'preguntas/preguntas1.js',
+        'preguntas/preguntas2.js',
+        'preguntas/preguntas3.js' // Agrega más archivos según los que tengas en la carpeta
     ];
 
     // Llenar el selector con los archivos disponibles
