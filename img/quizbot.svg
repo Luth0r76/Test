@@ -1,0 +1,55 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cuerpo principal - forma rectangular -->
+  <rect x="80" y="100" width="140" height="120" rx="10" fill="#2196F3"/>
+  
+  <!-- Línea decorativa en el cuerpo -->
+  <rect x="90" y="110" width="120" height="100" rx="5" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+  
+  <!-- Cabeza -->
+  <circle cx="150" cy="70" r="60" fill="#E91E63"/>
+  
+  <!-- Pantalla facial -->
+  <rect x="120" y="40" width="60" height="40" rx="10" fill="#FFFFFF"/>
+  
+  <!-- Ojos dinámicos -->
+  <circle cx="135" cy="60" r="8" fill="#333">
+    <animate attributeName="cy" values="60;55;60" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="165" cy="60" r="8" fill="#333">
+    <animate attributeName="cy" values="60;55;60" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Antena -->
+  <line x1="150" y1="10" x2="150" y2="30" stroke="#FFC107" stroke-width="4"/>
+  <circle cx="150" cy="10" r="5" fill="#FFC107">
+    <animate attributeName="r" values="5;7;5" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Brazos estilizados -->
+  <path d="M80 120 Q40 150 60 220" stroke="#2196F3" stroke-width="20" fill="none"/>
+  <path d="M220 120 Q260 150 240 220" stroke="#2196F3" stroke-width="20" fill="none"/>
+  
+  <!-- Puños rojos -->
+  <circle cx="60" cy="220" r="18" fill="#E91E63"/>
+  <circle cx="240" cy="220" r="18" fill="#E91E63"/>
+  
+  <!-- Panel de control con círculos animados -->
+  <rect x="110" y="140" width="80" height="50" rx="10" fill="#4CAF50"/>
+  <circle cx="130" cy="165" r="8" fill="#FFFFFF">
+    <animate attributeName="fill" values="#FFFFFF;#FFEB3B;#FFFFFF" dur="3s" begin="0s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="165" r="8" fill="#FFFFFF">
+    <animate attributeName="fill" values="#FFFFFF;#FFFFFF;#FFEB3B;#FFFFFF" dur="3s" begin="0s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="170" cy="165" r="8" fill="#FFFFFF">
+    <animate attributeName="fill" values="#FFFFFF;#FFFFFF;#FFFFFF;#FFEB3B;#FFFFFF" dur="3s" begin="0s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Piernas estilizadas -->
+  <path d="M120 220 L100 290" stroke="#2196F3" stroke-width="20" fill="none"/>
+  <path d="M180 220 L200 290" stroke="#2196F3" stroke-width="20" fill="none"/>
+  
+  <!-- Pies -->
+  <ellipse cx="100" cy="290" rx="20" ry="10" fill="#E91E63"/>
+  <ellipse cx="200" cy="290" rx="20" ry="10" fill="#E91E63"/>
+</svg>
