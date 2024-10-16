@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(120deg, #00c6ff, #ff6bcb); /* Degradado de azul a rosa */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #000000; /* Texto en negro */
+}
+
+#test {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra todo el contenido */
+    justify-content: center;
+}
+
+.pregunta {
+    width: 100%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.pregunta h3 {
+    text-align: left;
+    color: #333; /* Color oscuro para resaltar sobre el fondo claro de la pregunta */
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#resultado {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff; /* Texto blanco para destacar */
+}
+
+/* Estilos para respuestas correctas */
+.correcta {
+    color: #2e9847; /* Texto verde oscuro para respuestas correctas */
+    font-weight: bold; /* Las respuestas correctas destacarán en verde */
+}
+
+/* Estilos para respuestas incorrectas */
+.incorrecta {
+    text-decoration: line-through; /* Añade la línea de tachado */
+    color: red; /* Texto rojo */
+}
